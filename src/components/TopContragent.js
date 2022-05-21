@@ -49,9 +49,7 @@ const PersonCard = () => {
           <div className="text ml-4">
             <div className="name">Руслан Русланович</div>
             <div className="phone text-[#748AA1] text-sm">8 800 555 3535</div>
-            <div className="role text-[#748AA1] text-sm">
-              Администратор пляжа
-            </div>
+            <div className="role text-[#748AA1] text-sm">Поставщик</div>
           </div>
         </div>
         <button className="h-10 text-white w-[170px] rounded-md  bg-gradient-to-r from-cyan-500 to-blue-500">
@@ -76,7 +74,7 @@ const Person = ({ color, setIsOpen }) => {
             <img src={require("../Avatar.png")} width="50px" alt="" />
             <div className="textContainer ml-5 flex flex-col">
               <div className="name">Руслан</div>
-              <div className="desc text-[#748AA1] text-sm">Администратор </div>
+              <div className="desc text-[#748AA1] text-sm">Поставщик</div>
             </div>
           </div>
           <div className="rating flex items-center mr-3 text-3xl text-[#F3DB00]">

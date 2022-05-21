@@ -13,12 +13,12 @@ function App() {
         <div className="contentWrapper flex w-full">
           <div className="centerContent w-[70%]">
             <h1 className="text-1xl mt-4 w-full">Административная панель</h1>
-            <div className="wrapper mt-10">
-              <ModuleWrapper>
+            <div className="wrapper  mt-5">
+              <ModuleWrapper myClass=" relative h-[47vh]">
                 <LineChart></LineChart>
               </ModuleWrapper>
             </div>
-            <div className="wrapper1 flex justify-between mt-10">
+            <div className="wrapper1 flex justify-between mt-5">
               <div className="wrapper2 w-[45%]">
                 <ModuleWrapper myClass={"wrapper5 overflow-y-scroll"}>
                   <ChsTickets></ChsTickets>

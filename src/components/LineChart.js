@@ -23,6 +23,7 @@ ChartJS.register(
 export const options = {
   responsive: true,
   bezierCurve: true,
+  maintainAspectRatio: false,
   plugins: {
     legend: {
       position: "top",
