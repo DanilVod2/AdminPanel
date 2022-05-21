@@ -15,7 +15,7 @@ export const Ticket = ({ color }) => {
           <Status color={color}></Status>
         </div>
       </div>
-      <div className="description mt-3">Описаие</div>
+      <div className="description mt-3">Описание</div>
     </div>
   );
 };
