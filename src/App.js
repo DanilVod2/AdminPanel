@@ -20,12 +20,12 @@ function App() {
             </div>
             <div className="wrapper1 flex justify-between mt-5">
               <div className="wrapper2 w-[45%]">
-                <ModuleWrapper myClass={"wrapper5 overflow-y-scroll"}>
+                <ModuleWrapper myClass={"wrapper5 h-[38vh] overflow-y-scroll"}>
                   <ChsTickets></ChsTickets>
                 </ModuleWrapper>
               </div>
               <div className="wrapper2  w-[45%]">
-                <ModuleWrapper myClass="flex flex-col">
+                <ModuleWrapper myClass="flex h-[38vh] flex-col">
                   <TopContragent></TopContragent>
                   <BarChart></BarChart>
                 </ModuleWrapper>
