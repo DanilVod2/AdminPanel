@@ -7,7 +7,7 @@ export const Ticket = ({ color }) => {
         <div className="flex">
           <img src={require("../Avatar.png")} width="50px" alt="" />
           <div className="textContainer ml-5 flex flex-col">
-            <div className="name">Eliot</div>
+            <div className="name">Руслан</div>
             <div className="desc">Пользователь</div>
           </div>
         </div>

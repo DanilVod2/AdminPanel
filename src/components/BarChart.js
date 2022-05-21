@@ -45,14 +45,14 @@ export const options = {
   },
 };
 
-const labels = ["January", "February", "March", "April"];
+const labels = ["Василий", "Юрий", "Алексей", "Александр"];
 
 export const data = {
   labels,
   datasets: [
     {
-      label: "Dataset 1",
-      data: [10, 20, 30, 40],
+      label: "Прибыль",
+      data: [10, 20, 30, 25].map((el) => el * 1000),
       borderColor: ["#B558F6", "#29CB97", "#FEC400", "#4072EE"],
       backgroundColor: ["#B558F6", "#29CB97", "#FEC400", "#4072EE"],
       borderRadius: 50,

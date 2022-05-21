@@ -4,7 +4,7 @@ const Status = ({ color }) => {
   if (color === "red")
     return (
       <div className="text-xs text-[#B52A52] text-center bg-[#FE9F99] p-2 rounded-3xl min-w-[70px] ">
-        Отклонено
+        Ожидание
       </div>
     );
 
